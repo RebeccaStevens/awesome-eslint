@@ -36,6 +36,7 @@ If you want to contribute, please read the [contribution guidelines](contributin
 - [Tools](#tools)
 - [Developing for ESLint](#developing-for-eslint)
 - [Tutorials](#tutorials)
+- [Installation and Setup](#installation-and-setup)
 
 ## Configs
 
@@ -54,13 +55,14 @@ If you want to contribute, please read the [contribution guidelines](contributin
 
 ### Other Prominent Configs (100 stars or so)
 
+- [Auto](https://github.com/davidjbradshaw/eslint-config-auto) - Automatically configure ESLint based on your project's dependencies.
 - [Canonical](https://github.com/gajus/eslint-config-canonical) - Shareable config for [Canonical style guide](https://github.com/gajus/canonical).
 - [Standard](https://github.com/feross/eslint-config-standard) - Shareable config for JavaScript [Standard Style](https://github.com/feross/standard).
 - [XO](https://github.com/xojs/eslint-config-xo) - Shareable config for [XO](https://github.com/xojs/xo).
 
 ### Other Configs
 
-- [Adjunct](https://github.com/davidjbradshaw/eslint-config-adjunct) - A reasonable collection of plugins to use alongside your main esLint configuration.
+- [Adjunct](https://github.com/davidjbradshaw/eslint-config-adjunct) - A reasonable collection of plugins to use alongside your main ESLint configuration.
 - [Ash-Nazg](https://github.com/brettz9/eslint-config-ash-nazg) - One config to rule them all!
 - [Cecilia](https://github.com/SandroMiguel/eslint-config-cecilia) - ESLint configuration for awesome projects.
 - [ES](https://github.com/thenativeweb/eslint-config-es) - Shareable config for very strict code.
@@ -75,7 +77,6 @@ If you want to contribute, please read the [contribution guidelines](contributin
 - [Standard](https://github.com/feross/standard) - JavaScript Standard Style.
 - [Superlint](https://github.com/supermind/superlint) - JavaScript Supermind Style.
 - [XO](https://github.com/sindresorhus/xo) - JavaScript happiness style linter ❤️.
-- [Zoe](https://github.com/jorgegonzalez/zoe) - Universal JavaScript linter and formatter.
 - [Healthier](https://github.com/KidkArolis/healthier) - Code style agnostic version of Standard, perfect companion to Prettier.
 
 ## Plugins
@@ -96,7 +97,7 @@ If you want to contribute, please read the [contribution guidelines](contributin
 ### CSS in JS
 
 - [CSS-modules](https://github.com/atfzl/eslint-plugin-css-modules) - Lint undefined or unused rules for css modules.
-- [Emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin-emotion) - ESLint rules for emotion.
+- [Emotion](https://github.com/emotion-js/emotion/tree/master/packages/eslint-plugin) - ESLint rules for emotion.
 - Styled Components
   - [Better Styled Components](https://github.com/tinloof/eslint-plugin-better-styled-components) - Auto fixable ESlint's rules for styled components.
   - [styled-components-a11y](https://github.com/brendanmorrell/eslint-plugin-styled-components-a11y) - A11y for Styled Components.
@@ -117,6 +118,7 @@ If you want to contribute, please read the [contribution guidelines](contributin
 
 - [AngularJS](https://github.com/Gillespie59/eslint-plugin-angular) - Linting rules to adhere to the [John Papa's AngularJS Styleguide](https://github.com/johnpapa/angular-styleguide).
 - [Backbone](https://github.com/ilyavolodin/eslint-plugin-backbone) - Linting rules for Backbone.
+- [Custom Elements](https://github.com/github/eslint-plugin-custom-elements) - Rules by GitHub for Custom Elements.
 - [Ember](https://github.com/ember-cli/eslint-plugin-ember) - Linting rules for Ember.
 - [Hapi](https://github.com/continuationlabs/eslint-plugin-hapi) - Linting rules for hapi.
 - [Meteor](https://github.com/dferber90/eslint-plugin-meteor) - Meteor specific linting rules.
@@ -126,6 +128,7 @@ If you want to contribute, please read the [contribution guidelines](contributin
   - [React Hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) - Linting rules for React Hooks.
   - [React Native](https://github.com/Intellicode/eslint-plugin-react-native) - React Native specific linting rules.
   - [React-Redux](https://github.com/DianaSuvorova/eslint-plugin-react-redux) - React-Redux specific linting rules.
+- [Svelte](https://github.com/sveltejs/eslint-plugin-svelte3) - Linting rules for Svelte v3 Components.
 - Vue
   - [VueJS](https://github.com/vuejs/eslint-plugin-vue) - Plugin for VueJS.
   - [VueJS Scoped CSS](https://github.com/future-architect/eslint-plugin-vue-scoped-css) - Plugin for Scoped CSS in VueJS.
@@ -139,14 +142,18 @@ If you want to contribute, please read the [contribution guidelines](contributin
 - Flow
   - [Flow](https://github.com/gajus/eslint-plugin-flowtype) - Flow type linting rules.
   - [Flow Errors](https://github.com/amilajack/eslint-plugin-flowtype-errors) - Run Flow as an ESLint plugin.
+- [HTML](https://github.com/yeonjuan/html-eslint) - ESLint plugin for HTML.
 - JSON
   - [JSON](https://github.com/azeemba/eslint-plugin-json) - Lint your JSON files.
   - [JSON, package.json](https://github.com/Bkucera/eslint-plugin-json-format) - Lint, format, and auto-fix your JSON files. Sort your `package.json`.
   - [JSON with Comments](https://github.com/ota-meshi/eslint-plugin-jsonc) - ESLint plugin for JSON, JSONC and JSON5.
+  - [JSON Schema](https://github.com/ota-meshi/eslint-plugin-json-schema-validator) - Validates data defined in JavaScript, JSON, YAML and TOML using JSON Schema Validator.
 - [MDX](https://github.com/mdx-js/eslint-mdx/tree/master/packages/eslint-plugin-mdx) - ESLint Parser/Plugin for MDX.
 - [Node](https://github.com/mysticatea/eslint-plugin-node) - Additional ESLint's rules for Node.js.
 - [SQL](https://github.com/gajus/eslint-plugin-sql) - SQL linting rules for ESLint.
+- [TOML](https://github.com/ota-meshi/eslint-plugin-toml) - ESLint plugin for TOML.
 - [TypeScript](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) - Linting rules for TypeScript.
+- [YAML](https://github.com/ota-meshi/eslint-plugin-yml) - ESLint plugin for YAML.
 
 ### Libraries
 
@@ -167,9 +174,14 @@ If you want to contribute, please read the [contribution guidelines](contributin
 
 ### Misc
 
+- [Diff](https://github.com/paleite/eslint-plugin-diff) - Run ESLint on your changed lines only. Also supports CI!
 - [ESLint Comments](https://github.com/mysticatea/eslint-plugin-eslint-comments) - Best practices about ESLint directive comments (`/*eslint-disable*/`, etc.).
+- [eslint-plugin-write-good-comments](https://github.com/kantord/eslint-plugin-write-good-comments) - Enforce good writing style in comments.
+- [eslint-define-config](https://github.com/Shinigami92/eslint-define-config) - Provide a `defineConfig` function for `.eslintrc.js` files.
 - [eslint-plugin-eslint-plugin](https://github.com/not-an-aardvark/eslint-plugin-eslint-plugin) - An ESLint plugin for linting ESLint plugins.
+- [GitHub](https://github.com/github/eslint-plugin-github) - Misc. rules from GitHub.
 - [@mysticatea/eslint-plugin](https://github.com/mysticatea/eslint-plugin) - Misc. rules.
+- [@brettz9/eslint-plugin](https://github.com/brettz9/eslint-plugin) - Misc. rules. of `@mysticatea` without the personal config.
 - [Notice](https://github.com/nickdeis/eslint-plugin-notice) - An eslint rule that checks the top of files and fixes them too!
 - [Only-Error](https://github.com/davidjbradshaw/eslint-plugin-only-error) - Convert all rules to errors.
 - [Only-Warn](https://github.com/bfanger/eslint-plugin-only-warn) - Convert all rules to warnings.
@@ -186,11 +198,13 @@ If you want to contribute, please read the [contribution guidelines](contributin
 - [functional](https://github.com/jonaskello/eslint-plugin-functional) - ESLint rules to disable mutation and promote fp in JavaScript and TypeScript.
 - [Immutable](https://github.com/jhusain/eslint-plugin-immutable) - Disable all mutation in JavaScript.
 - [new-with-error](https://github.com/Trott/eslint-plugin-new-with-error) - Require errors to be thrown using `new`.
+- [no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind) - Encourages use of class properties by reporting use of `this` with `bind` or setting state in constructors.
 - [no-inferred-method-name](https://github.com/johnstonbl01/eslint-no-inferred-method-name) - Custom rule for ESLint that checks for inferred method names within object literals.
 - [no-loops](https://github.com/buildo/eslint-plugin-no-loops) - It's 2019 and you still use loops?
 - [no-restricted-syntax](https://github.com/brettz9/eslint-plugin-query) - Show queried syntax's content in messages.
 - [no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) - Prevent using extended native objects.
 - [Promise](https://github.com/xjamundx/eslint-plugin-promise) - Best practices when working with promises.
+- [pure](https://github.com/purely-functional/eslint-plugin-pure) - Enforce pure functions (without side effects).
 - [RegExp](https://github.com/ota-meshi/eslint-plugin-regexp) - ESLint plugin for finding regexp mistakes and style guide violations.
 - [sort-keys-fix](https://github.com/leo-buneev/eslint-plugin-sort-keys-fix) - Adds fixer for ESLint `sort-keys` rule.
 - [this](https://github.com/matijs/eslint-plugin-this) - Write pure functions, don't allow `this`.
@@ -198,6 +212,7 @@ If you want to contribute, please read the [contribution guidelines](contributin
 
 ### Performance
 
+- [clean-regex](https://github.com/RunDevelopment/eslint-plugin-clean-regex) - JavaScript regex linter that aims to help write better regular expressions by pointing out errors and suggesting improvements.
 - [DOM](https://github.com/amilajack/eslint-plugin-dom)
 - [Optimize Regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex) - Optimize regex literals.
 - Perf-Standard [plugin](https://github.com/Raynos/eslint-plugin-perf-standard) and [Config](https://github.com/Raynos/eslint-config-perf-standard)
@@ -206,16 +221,19 @@ If you want to contribute, please read the [contribution guidelines](contributin
 
 - [no-secrets](https://github.com/nickdeis/eslint-plugin-no-secrets) - An eslint plugin that detects potential secrets/credentials.
 - [no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized) - Checks for `innerHTML`, `outerHTML`, etc.
+- [pii](https://github.com/shiva-hack/eslint-plugin-pii) - Checks and enforces PII Compliance of the code. i.e. no email address, birth date, IP address or phone number in comments or string literals.
 - ScanJS [config](https://github.com/mozfreddyb/eslint-config-scanjs) and [plugin](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules) - Security-related rules.
 - [Security](https://github.com/nodesecurity/eslint-plugin-security) - ESLint rules for Node Security.
 - [xss](https://github.com/Rantanen/eslint-plugin-xss) - Tries to detect XSS issues in codebase before they end up in production.
 
 ### Style
 
-- [editorconfig](https://github.com/platinumazure/eslint-plugin-editorconfig) - Derive rules from [`.editorconfig`](https://editorconfig.org/)
+- [const case](https://www.npmjs.com/package/eslint-plugin-const-case) - Enforce capitalization of constant primitive literals.
+- [editorconfig](https://github.com/platinumazure/eslint-plugin-editorconfig) - Derive rules from [`.editorconfig`](https://editorconfig.org/).
 - [filenames](https://github.com/selaux/eslint-plugin-filenames) - Ensure consistent filenames for your JavaScript files.
 - [Simple import sort](https://github.com/lydell/eslint-plugin-simple-import-sort) - Easy autofixable import sorting.
 - [Switch case](https://github.com/lukeapage/eslint-plugin-switch-case) - Switch-case-specific linting rules for ESLint.
+- [padding](https://github.com/mu-io/eslint-plugin-padding) - Allows/disallows padding between statements.
 
 ### Testing Tools
 
@@ -278,6 +296,9 @@ If you want to contribute, please read the [contribution guidelines](contributin
 - [eslint-watch](https://github.com/rizowski/eslint-watch) - Run ESLint with watch mode.
 - [codacy-eslint](https://github.com/codacy/codacy-eslint) - Docker used at [Codacy](https://www.codacy.com) to run ESLint.
 - [esprint](https://github.com/pinterest/esprint) - Run ESLint across multiple threads.
+- [generator-eslint](https://github.com/eslint/generator-eslint) - Generate ESLint
+  plugin and rules with [Yeoman](http://yeoman.io/).
+- [editor-info](https://github.com/fisker/editor-info) - Detect whether one is within an editor/IDE and which type, allowing one to tweak ESLint configuration accordingly.
 
 ## Developing for ESLint
 
@@ -291,3 +312,7 @@ If you want to contribute, please read the [contribution guidelines](contributin
 - [Linting React JSX with ESLint (in ES6)](https://egghead.io/lessons/react-linting-react-jsx-with-eslint-in-es6) - Video showing how to use React and JSX with ESLint.
 - [Plugin Module with Mixins](https://chrysanthium.com/eslint-integration) - Article on how to write a plugin as a node module containing modular mixin configuration.
 - [Writing a rule to spot undeclared props hiding in plain sight](http://blog.cowchimp.com/writing-a-custom-eslint-rule-to-spot-undeclared-props/) - Article about creating rules that require scope analysis.
+
+## Installation and Setup
+
+- [Lintier](https://github.com/josh-stillman/lintier) - CLI to quickly scaffold an ESLint & Prettier setup in a TypeScript project.
